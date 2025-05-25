@@ -199,7 +199,7 @@
     <qemu:device alias="video0">
       <qemu:frontend>
         <qemu:property name="venus" type="bool" value="true"/>
-        <qemu:property name="hostmem" type="unsigned" value="1073741824"/>
+        <qemu:property name="hostmem" type="unsigned" value="4294967296"/>
       </qemu:frontend>
     </qemu:device>
   </qemu:override>
